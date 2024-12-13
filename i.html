@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lập Báo Cáo & Phát Hành Chứng Thư</title>
+        <style>
+            /* CSS được nhúng trong file HTML */
+            .page-body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f5f5f5;
+            }
+
+            .content-container {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            .step-block {
+                position: relative;
+                margin: 20px 0;
+                padding: 24px;
+                background: #ffffff;
+                overflow: hidden;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .step-details {
+                z-index: 2;
+                width: 50%;
+                background-color: rgba(255, 255, 255, 0.9);
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            }
+
+            .step-title {
+                color: #cfa15f;
+                font-weight: bold;
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .section-heading {
+                color: #004f9e;
+                font-size: 1.5rem;
+                margin-bottom: 15px;
+            }
+
+            .section-text {
+                font-size: 1rem;
+                line-height: 1.5;
+                margin-bottom: 20px;
+            }
+
+            .step-list {
+                list-style: none;
+                padding: 0;
+            }
+
+            .step-list-item {
+                font-size: 1rem;
+                margin-bottom: 10px;
+                position: relative;
+                padding-left: 25px;
+            }
+
+            .step-list-item::before {
+                content: "•";
+                color: #cfa15f;
+                font-weight: bold;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+            .step-image-wrapper {
+                width: 45%;
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .step-image-wrapper img {
+                max-width: 100%;
+                height: auto;
+                object-fit: cover;
+                border-radius: 8px;
+                filter: brightness(70%);
+            }
+        </style>
+    </head>
+
+    <body class="page-body">
+        <div class="content-container">
+            <!-- Bước 5 -->
+            <div class="step-block">
+                <div class="step-details">
+                    <span class="step-title">Bước 5</span>
+                    <h2 class="section-heading">Lập báo cáo kết quả TDG, chứng thư TDG và kiểm soát chất lượng</h2>
+                    <p class="section-text">
+                        - Lập báo cáo kết quả thẩm định giá, chứng thư thẩm định giá theo mẫu Công ty.<br>
+                        - Chuyên viên thẩm định giá lập hồ sơ soát xét và thực hiện quy trình soát xét theo các cấp.
+                    </p>
+                    <ul class="step-list">
+                        <li class="step-list-item">Kiểm soát cấp phòng: TDV</li>
+                        <li class="step-list-item">Kiểm soát cấp công ty: BGD, BKS</li>
+                        <li class="step-list-item">Kiểm soát phát hành: Ban giám đốc, Phòng hành chính</li>
+                        <li class="step-list-item">Kiểm soát sau phát hành: Trưởng/Phó phòng hành chính, BGD, BKS</li>
+                    </ul>
+                </div>
+                <div class="step-image-wrapper">
+                    <img src="./asset/img/kiem-soat-chat-luong.png" alt="Hình minh họa">
+                </div>
+            </div>
+            <!-- Bước 6 -->
+            <div class="step-block">
+                <div class="step-details">
+                    <span class="step-title">Bước 6</span>
+                    <h2 class="section-heading">Phát hành báo cáo kết quả TDG, chứng thư TDG</h2>
+                    <p class="section-text">
+                        Đây là bước cuối cùng trong quy trình thẩm định giá, nhằm hoàn thiện và phát hành các tài liệu
+                        chính
+                        thức
+                        (Báo cáo và Chứng thư thẩm định giá) cho khách hàng, đảm bảo mọi thông tin được chính xác, minh
+                        bạch và
+                        tuân thủ các quy định pháp luật.
+                    </p>
+                    <button class="cta-button">Nhận tư vấn miễn phí</button>
+                </div>
+                <div class="step-image-wrapper">
+                    <img src="step6-image.jpg" alt="Step 6 Image">
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
